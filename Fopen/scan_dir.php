@@ -1,7 +1,7 @@
 <?php
 // scan dir
 $images = scandir("images"); // return will be an array. We can use a foreach to run along
-
+var_dump($images);
 $data = array();
 
 foreach ($images as $img) { // the first 2 positions in array are . and ..
